@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #000; overflow: hidden; width: 100vw; height: 100vh; }
+    iframe {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://www.youtube.com/embed/_9Fgq8Ib02w?autoplay=1&mute=1&loop=1&playlist=_9Fgq8Ib02w&controls=0"
+    allow="autoplay; fullscreen"
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
+```
+
+💡 **動画IDの確認方法：** YouTubeのURLが `https://www.youtube.com/watch?v=abc123xyz` なら、`abc123xyz` が動画IDです。
+
+右下の **「Commit changes」** をクリックして保存。
+
+---
+
+### 4. GitHub Pagesを有効にする
+
+1. リポジトリの **「Settings」** タブ
+2. 左メニューの **「Pages」**
+3. **Source** を `Deploy from a branch` に設定
+4. **Branch** を `main`・フォルダを `/(root)` に設定
+5. **「Save」**
+
+---
+
+### 5. URLにアクセス
+
+数分後、以下のURLでアクセスできます：
+```
+https://あなたのユーザー名.github.io/signage/
